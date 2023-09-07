@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e6878f4e4e.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oregano' rel='stylesheet'>
+    <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Kaan Gozleme</title>
 </head>
@@ -11,11 +13,38 @@
     
     <header>
         <div class='image'>
-            <img src="./css/gozleme.png" alt="Logo" />
+            <img src="./images/gozleme.png" alt="Logo" />
+            <a href="#" class="up" >
+                <i class="fas fa-arrow-alt-circle-up up"></i>
+            </a>
         </div>
     </header>
 
+    
+
     <main>
+        <div class="flex">
+            <a href="#simple">
+                <div class="box">
+                    <img src="./images/gozleme1.jpg" alt="Gozleme simple">
+                    <p class="nameImage">Galette simple</p>
+                </div>
+            </a>
+
+            <a href="#mixte">
+                <div class="box">
+                    <img src="./images/gozleme2.jpg" alt="Gozleme mixte">
+                    <p class="nameImage">Galette mixte</p>
+                </div>
+            </a>
+
+            <a href="#multimixte" id="simple">
+                <div class="box">
+                    <img src="./images/gozleme3.jpg" alt="Gozleme multimixte">
+                    <p class="nameImage">Galette multimixte</p>
+                </div>
+            </a>
+        </div>
         <div class="nameChoice">NOS GALETTE SIMPLE</div>
             <div class='gray'>
                 <div class='title'>
@@ -105,7 +134,7 @@
                 </div>
             </div>
 
-            <div class='gray'>
+            <div class='gray' id="mixte">
                 <div cl0ass='title'>
                     <p class='element'>Galette nature</p>
                     <p class='info'>Galette nature</p>
@@ -216,7 +245,7 @@
                 </div>
             </div>
 
-            <div class='white'>
+            <div class='white' id="multimixte">
                 <div class='title'>
                     <p class='element'>Galette oeufs + champignons</p>
                     <p class='info'>Galette oeufs frais + champignons</p>
@@ -297,4 +326,6 @@
 
 </body>
 </html>
+
+
 
