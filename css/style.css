@@ -35,7 +35,7 @@
     position: absolute;
     top: 20px;
     right: 10px;
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(205, 216, 55);
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 .box img {
-    width: 170px;
+    width: 130px;
     height: 110px;
     object-fit: cover;
     /* filter: brightness(89%); */
